@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Gerador de text shadow</title> 
+</head>
+<body>
+
+    <header>
+
+    </header>
+
+    <main>
+        <div class="box">
+            <div class="inputs">
+                <div class="input-element ">
+                    <label for="shift-right">Deslocar para a direita:</label>
+                <input max="40" type="range" id="shift-right" value="right">
+                </div>
+                
+                <div class="input-element">
+                    <label for="shift-left">Deslocar para a esquerda: </label>
+                    <input max="40" type="range" id="shift-left" value="left">
+                </div>
+
+                <div class="input-element">
+                    <label for="blur">Blur: </label>
+                <input max="30" type="range" id="blur" value="blur">
+                </div>
+<!-- 
+                <div class="input-element">
+                    <label for="opacity">Opacidade: </label>
+                <input max="100" type="range" id="opacity" value="opacity">
+                </div> -->
+
+                <div class="input-element">
+                        <label for="opacity">Color: </label>
+                        <input type="color" id="color" value="color">
+                </div>
+            </div>
+            <div class="preview">
+                <h1>Preview</h1>
+            </div>
+        </div>
+        <div class="label">
+            <button class="btn-add"><i class="fas fa-plus"></i></button>
+            <div class="label-text">
+                <span>text-shadow:</span>
+                <span id="label-right">0px</span>
+                <span id="label-left">0px</span>
+                <span id="label-blur">0px</span>
+                <span id="label-color">#000000</span>
+                <span>;</span>
+            </div>
+            <button class="btn-copiar">Copiar</button>
+        </div>
+    </main>
+
+    <script src="https://kit.fontawesome.com/73b3f70564.js" crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
