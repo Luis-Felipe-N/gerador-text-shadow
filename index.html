@@ -12,21 +12,37 @@
 </head>
 <body>
 
-    <header>
-
+    <header id="cabecalho">
+        <ul class="menu-items">
+            <li>
+                <a href="https://luis-felipe.netlify.app/" target="_blank">
+                    <i class="fas fa-user"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/Luis-Felipe-N" target="_blank">
+                    <i class="fab fa-github-alt"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/luis_felipenc17/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
     </header>
 
     <main>
         <div class="box">
             <div class="inputs">
                 <div class="input-element ">
-                    <label for="shift-right">Deslocar para a direita:</label>
-                <input max="40" type="range" id="shift-right" value="right">
+                    <label for="shift-right">Deslocar no eixo X:</label>
+                <input min="-40" max="40" type="range" id="shift-right" value="right">
                 </div>
                 
                 <div class="input-element">
-                    <label for="shift-left">Deslocar para a esquerda: </label>
-                    <input max="40" type="range" id="shift-left" value="left">
+                    <label for="shift-left">Deslocar no eixo Y: </label>
+                    <input min="-40" max="40" type="range" id="shift-left" value="left">
                 </div>
 
                 <div class="input-element">
