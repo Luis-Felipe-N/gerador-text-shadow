@@ -1,13 +1,13 @@
-# GErador de text-shadow
+# Gerador de text-shadow
 
 
-# Exemplo
-<img src="/assets/example.png" alt="imagem de exemplo">
+## Preview
+![Imagem](/assets/preview.png)
 
 <p style="text-align: center;">Um site onde você pode criar um text-shadow e copiar o css.
 </p>
 
-# Tecnoligias 
+## Tecnoligias 
 
 - HTML
 - CSS
